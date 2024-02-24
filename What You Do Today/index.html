@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What you do today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <div class="navigationbar">
+        <h1>What You Do Today!!</h1>
+    </div>
+    </center>
+    
+    <div class="container">
+        <div class="subcontainer">
+            <h2>Motivation</h2>
+            <h5>1% Better than Yesterday</h5>
+            <p>Don't be afraid to start anything, Just get up and start today and change your mentality. Always be 1% better than Yesterday, one day you will reach your destination where you dreamt of. Just here this out! YOU WILL BECOME 1% BETTER THAN YESTERDAY AND ONE DAY YOU WILL REACH WHERE YOU DREAMT OF BUT NOT IN 100 DAYS, JUST KEEP WORKING YOUR ASS OF TO ACHIEVE THERE. </p>
+            <button onclick="deletequote(event)">Delete</button>
+        </div>
+
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h2>Describe that you are better than Yesterday</h2>
+        <form>
+        <input type="text" placeholder="Topic" id="topic"><br>
+        <input type="text" placeholder="Summary Of Topic" id="summaryoftopic"><br>
+        <textarea placeholder="Describe the Topic" id="describethetopic"></textarea><br>
+        <button class="addingquote" id="addingthequote">ADD</button>
+        <button id="cancellingthequote">CANCEL</button>
+        </form>
+    </div>
+    
+            <button class="addthequote" id="addquote">+</button>
+            <script src="script.js"></script>
+</body>
+
+    
+</html>

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Anta", sans-serif;
+      
+}
+.navigationbar{
+    background-color: firebrick;
+    padding: 10px;
+}
+.container{
+    padding: 10px; 
+    background-color:bisque ;
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+}
+.subcontainer{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    width: 25%;
+    color: white;
+    margin: 40px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.subcontainer h2{
+    color: firebrick;
+}
+.subcontainer p{
+    margin-top: 10px;
+}
+.subcontainer h5{
+    margin-top: 5px;
+}
+.subcontainer button{
+    background-color: firebrick;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.addthequote{
+    border-radius: 100%; 
+    background-color:firebrick;   
+    border: none;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    display: none;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    
+}
+.popup{
+    background-color: firebrick;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    top: 23%;
+    left: 27%;
+    position: absolute;
+    display: none;
+    z-index: 2;
+   
+}
+.popup input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popup textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border : solid black 2px;
+}
+.popup input::placeholder{
+    color: black;
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.popup button{
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: none;
+    color: aliceblue;
+    margin: 5px;
+}
+.popup input:focus{
+    outline: none;
+}
+.popup textarea:focus{
+    outline: none;
+}
